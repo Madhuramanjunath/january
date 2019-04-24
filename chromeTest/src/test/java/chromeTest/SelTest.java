@@ -7,7 +7,7 @@ public class SelTest {
 	@Test
 	public void cTest(){
 		ChromeDriver driver = new ChromeDriver();
-		
+		driver.manage().window().maximize();
 	}
 
 }
